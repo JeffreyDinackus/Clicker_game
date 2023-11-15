@@ -10,3 +10,26 @@ add copilotkit for fun  https://github.com/RecursivelyAI/CopilotKit
 
 
 
+architecture choices: 
+
+front end: 
+
+react, shaduicn, Tailwind 
+
+back end: 
+
+auth0, mongodb or postgres, copilotkit 
+
+
+
+
+container running react + express 
+
+
+OR 
+
+
+container running ruby on rails (+ react?) 
+
+
+container running mongodb OR postgres 
