@@ -6,7 +6,7 @@ add user authentication and save between sessions with mongo/postgresql and expr
 
 style it better.
 
-add copilotkit for fun 
+add copilotkit for fun  https://github.com/RecursivelyAI/CopilotKit
 
 
 
