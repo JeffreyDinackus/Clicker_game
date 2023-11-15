@@ -1,0 +1,35 @@
+Add some images of cookies
+
+make more buttons that can unlock
+
+add user authentication and save between sessions with mongo/postgresql and express/auth0. use shaduicn for login form.
+
+style it better.
+
+add copilotkit for fun  https://github.com/RecursivelyAI/CopilotKit
+
+
+
+architecture choices: 
+
+front end: 
+
+react, shaduicn, Tailwind 
+
+back end: 
+
+auth0, mongodb or postgres, copilotkit 
+
+
+
+
+container running react + express 
+
+
+OR 
+
+
+container running ruby on rails (+ react?) 
+
+
+container running mongodb OR postgres 
