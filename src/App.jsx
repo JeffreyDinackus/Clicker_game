@@ -38,7 +38,7 @@ function App() {
 
       </div >
       <div className="flex flex-row">
-        {TenButtonTrue ? <p onClick={() => unlock(-1)}>click to spend 10 cookies and unlock a +10 button</p> : <button onClick={() => handleClick(10)}>Add 10 cookies</button>};
+        {TenButtonTrue ? <p onClick={() => unlock(-10)}>click to spend 10 cookies and unlock a +10 button</p> : <button onClick={() => handleClick(10)}>Add 10 cookies</button>};
 
 
       </div>
