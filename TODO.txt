@@ -1,0 +1,12 @@
+Add some images of cookies
+
+make more buttons that can unlock
+
+add user authentication and save between sessions with mongo/postgresql and express/auth0. use shaduicn for login form.
+
+style it better.
+
+
+
+
+
