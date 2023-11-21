@@ -1,0 +1,19 @@
+FROM node:21-alpine3.17
+
+
+COPY src /app/
+# COPY public /app/
+COPY package-lock.json /app/
+COPY package.json /app/
+
+WORKDIR /app
+
+RUN npm install
+
+RUN npm run build
+
+
+
+EXPOSE 3000
+
+CMD ["node", "npm run serve"]
