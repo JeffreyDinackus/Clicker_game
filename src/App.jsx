@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-
+import Leaderboard from './Leaderboard/Leaderboard.jsx'
 
 
 
@@ -32,11 +32,38 @@ function App() {
 
 
   }
+  const top = [
+    {
+      name: "Magic Mike",
+      rank: 1,
+      score: 300000
+      ,
+      objectID: 1,
 
+    },
+    {
+      name: "The XD kid",
+      rank: 2,
+      score: 250000
+      ,
+      objectID: 2,
+
+    },
+    {
+      name: "Duke",
+      rank: 3,
+      score: 210000,
+      objectID: 3,
+
+    }
+
+  ]
 
   return (
     <>
+      < Leaderboard list={top} />
       <div className='flex flex-row'>
+
         <p className='text-3xl basis-1/4 text-red-800'>{count} Cookies!</p>
         <button className="m-5 basis-1/2" onClick={() => handleClick(1)}>add 1 cookie</button>
 
